@@ -14,9 +14,10 @@ class Computador {
   cpu: number = 0;
   ligado: boolean = true;
 }
-const comp1 = new Computador();
-const comp2 = new Computador();
-const comp3 = new Computador();
+
+const comp1 = new Computador(); // instancia, criar o objeto
+const comp2 = new Computador(); // instancia
+const comp3 = new Computador(); // instancia
 
 comp1.nome = "Bom";
 comp2.nome = "Ruim";
